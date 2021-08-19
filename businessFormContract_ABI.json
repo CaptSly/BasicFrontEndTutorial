@@ -1,0 +1,78 @@
+[
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getPackageDelivery",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_businessName",
+				"type": "string"
+			},
+			{
+				"name": "_businessAddress",
+				"type": "string"
+			},
+			{
+				"name": "_businessLicense",
+				"type": "string"
+			},
+			{
+				"name": "_packageId",
+				"type": "uint256"
+			},
+			{
+				"name": "_packageReceiver",
+				"type": "string"
+			},
+			{
+				"name": "_packageReceiverAddress",
+				"type": "string"
+			},
+			{
+				"name": "_packageContents",
+				"type": "string"
+			}
+		],
+		"name": "setPackageDelivery",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
